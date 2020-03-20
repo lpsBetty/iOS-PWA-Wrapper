@@ -9,16 +9,14 @@
 import UIKit
 
 // Basic App-/WebView-configuration
-let appTitle = "iOS PWA Wrapper"
-let webAppUrl = URL(string: "https://www.leasingrechnen.at")
-let allowedOrigin = "leasingrechnen.at"
+let appTitle = "repesent."
+let webAppUrl = URL(string: "https://session.getrepresent.com")
+let allowedOrigin = "getrepresent.com"
 let menuButtonTitle = NSLocalizedString("menu", comment: "")
-let menuButtonJavascript = """
-    $('.button-collapse').sideNav('show');
-"""
+let menuButtonJavascript = ""
 let useUserAgentPostfix = true
 let userAgentPostfix = "iOSApp"
-let useCustomUserAgent = false
+let useCustomUserAgent = true
 let customUserAgent = "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0_1 like Mac OS X) AppleWebKit/604.2.10 (KHTML, like Gecko) Mobile/15A8401"
 
 // UI Settings
@@ -36,11 +34,11 @@ let alternateRightButtonJavascript = """
 """
 
 // Colors & Styles
-let useLightStatusBarStyle = true
-let navigationBarColor = getColorFromHex(hex: 0xF44336, alpha: 1.0)
-let navigationTitleColor = getColorFromHex(hex: 0xFFFFFF, alpha: 1.0)
+let useLightStatusBarStyle = false
+let navigationBarColor = getColorFromHex(hex: 0xF44336, alpha: 0.0)
+let navigationTitleColor = getColorFromHex(hex: 0xFFFFFF, alpha: 0.0)
 let navigationButtonColor = navigationTitleColor
-let progressBarColor = getColorFromHex(hex: 0x4CAF50, alpha: 1.0)
+let progressBarColor = getColorFromHex(hex: 0x4CAF50, alpha: 0.0)
 let offlineIconColor = UIColor.darkGray
 let buttonColor = navigationBarColor
 let activityIndicatorColor = navigationBarColor
