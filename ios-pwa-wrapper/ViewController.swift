@@ -107,7 +107,7 @@ class ViewController: UIViewController {
         configuration.mediaTypesRequiringUserActionForPlayback = []
         
         // set up webview
-        webView = WKWebView(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height), configuration: configuration)
+        webView = WKWebView(frame: CGRect(x: 0, y: 0, width: self.webViewContainer.frame.width, height: self.webViewContainer.frame.height), configuration: configuration)
         webView.navigationDelegate = self
         webView.uiDelegate = self
         webView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
