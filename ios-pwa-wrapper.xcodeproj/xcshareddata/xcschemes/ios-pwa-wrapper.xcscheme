@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D504BEA1FA100E20019B279"
-               BuildableName = "ios-pwa-wrapper.app"
+               BuildableName = "represent..app"
                BlueprintName = "ios-pwa-wrapper"
                ReferencedContainer = "container:ios-pwa-wrapper.xcodeproj">
             </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D504BEA1FA100E20019B279"
-            BuildableName = "ios-pwa-wrapper.app"
+            BuildableName = "represent..app"
             BlueprintName = "ios-pwa-wrapper"
             ReferencedContainer = "container:ios-pwa-wrapper.xcodeproj">
          </BuildableReference>
@@ -82,7 +82,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D504BEA1FA100E20019B279"
-            BuildableName = "ios-pwa-wrapper.app"
+            BuildableName = "represent..app"
             BlueprintName = "ios-pwa-wrapper"
             ReferencedContainer = "container:ios-pwa-wrapper.xcodeproj">
          </BuildableReference>

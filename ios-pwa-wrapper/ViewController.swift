@@ -18,8 +18,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var offlineView: UIView!
     @IBOutlet weak var offlineIcon: UIImageView!
     @IBOutlet weak var offlineButton: UIButton!
-    @IBOutlet weak var activityIndicatorView: UIView!
-    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
+    //@IBOutlet weak var activityIndicator: UIActivityIndicatorView!
+    
+    @IBOutlet weak var loadingView: UIView!
     
     // MARK: Globals
     var webView: WKWebView!
@@ -52,8 +53,7 @@ class ViewController: UIViewController {
         if (webView.canGoBack) {
             webView.goBack()
             // fix a glitch, as the above seems to trigger observeValue -> WKWebView.isLoading
-            activityIndicatorView.isHidden = true
-            activityIndicator.stopAnimating()
+            //activityIndicator.stopAnimating()
         } else {
             // exit app
             UIControl().sendAction(#selector(URLSessionTask.suspend), to: UIApplication.shared, for: nil)
@@ -111,7 +111,7 @@ class ViewController: UIViewController {
         webView.navigationDelegate = self
         webView.uiDelegate = self
         webView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-        self.view.addSubview(webView)
+        self.webViewContainer.addSubview(webView)
         
         // settings
         webView.allowsBackForwardNavigationGestures = true
@@ -154,8 +154,8 @@ class ViewController: UIViewController {
         // leftButton.isEnabled = false
 
         // activity indicator
-        activityIndicator.color = activityIndicatorColor
-        activityIndicator.startAnimating()
+        //activityIndicator.color = activityIndicatorColor
+        //activityIndicator.startAnimating()
         
         // offline container
         offlineIcon.tintColor = offlineIconColor
@@ -211,8 +211,9 @@ extension ViewController: WKNavigationDelegate {
     // didFinish
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
         // hide activity indicator
-        activityIndicatorView.isHidden = true
-        activityIndicator.stopAnimating()
+        //activityIndicator.stopAnimating()
+        
+        self.loadingView.isHidden = true
     }
     // didFailProvisionalNavigation
     // == we are offline / page not available
