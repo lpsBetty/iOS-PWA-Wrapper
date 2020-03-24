@@ -4,75 +4,79 @@
       "extent" : "full-screen",
       "idiom" : "iphone",
       "subtype" : "2688h",
-      "filename" : "splashscreen - iPhone XS Max.png",
+      "filename" : "splashscreen - iPhone XS Max@3x.png",
       "minimum-system-version" : "12.0",
       "orientation" : "portrait",
       "scale" : "3x"
     },
     {
-      "orientation" : "landscape",
-      "idiom" : "iphone",
       "extent" : "full-screen",
-      "minimum-system-version" : "12.0",
+      "idiom" : "iphone",
       "subtype" : "2688h",
+      "filename" : "splashscreen - iPhone XS Max Landscape@3x.png",
+      "minimum-system-version" : "12.0",
+      "orientation" : "landscape",
       "scale" : "3x"
     },
     {
       "extent" : "full-screen",
       "idiom" : "iphone",
       "subtype" : "1792h",
-      "filename" : "splashscreen - iPhone XR.png",
+      "filename" : "splashscreen - iPhone XR@2x.png",
       "minimum-system-version" : "12.0",
       "orientation" : "portrait",
       "scale" : "2x"
     },
     {
-      "orientation" : "landscape",
-      "idiom" : "iphone",
       "extent" : "full-screen",
-      "minimum-system-version" : "12.0",
+      "idiom" : "iphone",
       "subtype" : "1792h",
+      "filename" : "splashscreen - iPhone XR Landscape@2x.png",
+      "minimum-system-version" : "12.0",
+      "orientation" : "landscape",
       "scale" : "2x"
     },
     {
       "extent" : "full-screen",
       "idiom" : "iphone",
       "subtype" : "2436h",
-      "filename" : "splashscreen - iPhone XS.png",
+      "filename" : "splashscreen - iPhone XS@3x.png",
       "minimum-system-version" : "11.0",
       "orientation" : "portrait",
       "scale" : "3x"
     },
     {
-      "orientation" : "landscape",
-      "idiom" : "iphone",
       "extent" : "full-screen",
-      "minimum-system-version" : "11.0",
+      "idiom" : "iphone",
       "subtype" : "2436h",
+      "filename" : "splashscreen - iPhone XS Landscape@3x.png",
+      "minimum-system-version" : "11.0",
+      "orientation" : "landscape",
       "scale" : "3x"
     },
     {
       "extent" : "full-screen",
       "idiom" : "iphone",
       "subtype" : "736h",
-      "filename" : "splashscreen - iPhone 8 Plus.png",
+      "filename" : "splashscreen - iPhone 8 Plus@3x.png",
       "minimum-system-version" : "8.0",
       "orientation" : "portrait",
       "scale" : "3x"
     },
     {
-      "orientation" : "landscape",
-      "idiom" : "iphone",
       "extent" : "full-screen",
-      "minimum-system-version" : "8.0",
+      "idiom" : "iphone",
       "subtype" : "736h",
+      "filename" : "splashscreen - iPhone 8 Plus Landscape@3x.png",
+      "minimum-system-version" : "8.0",
+      "orientation" : "landscape",
       "scale" : "3x"
     },
     {
       "extent" : "full-screen",
       "idiom" : "iphone",
       "subtype" : "667h",
-      "filename" : "splashscreen - iPhone 8.png",
+      "filename" : "splashscreen - iPhone 8@2x.png",
       "minimum-system-version" : "8.0",
       "orientation" : "portrait",
       "scale" : "2x"
@@ -80,6 +84,7 @@
     {
       "orientation" : "portrait",
       "idiom" : "iphone",
+      "filename" : "splashscreen - iPhone 4@2x-1.png",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
       "scale" : "2x"
@@ -88,7 +93,7 @@
       "extent" : "full-screen",
       "idiom" : "iphone",
       "subtype" : "retina4",
-      "filename" : "splashscreen - iPhone SE-1.png",
+      "filename" : "splashscreen - iPhone SE@2x.png",
       "minimum-system-version" : "7.0",
       "orientation" : "portrait",
       "scale" : "2x"
@@ -96,6 +101,7 @@
     {
       "orientation" : "portrait",
       "idiom" : "ipad",
+      "filename" : "splashscreen - 7.9inch iPad mini@1x-1.png",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
       "scale" : "1x"
@@ -103,6 +109,7 @@
     {
       "orientation" : "landscape",
       "idiom" : "ipad",
+      "filename" : "splashscreen - 9.7inch iPad Landscape@1x.png",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
       "scale" : "1x"
@@ -110,7 +117,7 @@
     {
       "orientation" : "portrait",
       "idiom" : "ipad",
-      "filename" : "splashscreen - 7.9inch iPad mini-1.png",
+      "filename" : "splashscreen - 7.9inch iPad mini@2x.png",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
       "scale" : "2x"
@@ -118,6 +125,7 @@
     {
       "orientation" : "landscape",
       "idiom" : "ipad",
+      "filename" : "splashscreen - 9.7inch iPad Landscape@2x.png",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
       "scale" : "2x"
@@ -125,12 +133,14 @@
     {
       "orientation" : "portrait",
       "idiom" : "iphone",
+      "filename" : "splashscreen - iPhone 4@1x.png",
       "extent" : "full-screen",
       "scale" : "1x"
     },
     {
       "orientation" : "portrait",
       "idiom" : "iphone",
+      "filename" : "splashscreen - iPhone 4@2x.png",
       "extent" : "full-screen",
       "scale" : "2x"
     },
@@ -145,30 +155,35 @@
     {
       "orientation" : "portrait",
       "idiom" : "ipad",
+      "filename" : "splashscreen - 7.9inch iPad mini without statusbar@1x.png",
       "extent" : "to-status-bar",
       "scale" : "1x"
     },
     {
       "orientation" : "portrait",
       "idiom" : "ipad",
+      "filename" : "splashscreen - 7.9inch iPad mini@1x.png",
       "extent" : "full-screen",
       "scale" : "1x"
     },
     {
       "orientation" : "landscape",
       "idiom" : "ipad",
+      "filename" : "splashscreen - 7.9inch iPad mini Landscape without statusbar@1x.png",
       "extent" : "to-status-bar",
       "scale" : "1x"
     },
     {
       "orientation" : "landscape",
       "idiom" : "ipad",
+      "filename" : "splashscreen - 9.7inch iPad Landscape@1x-1.png",
       "extent" : "full-screen",
       "scale" : "1x"
     },
     {
       "orientation" : "portrait",
       "idiom" : "ipad",
+      "filename" : "splashscreen - 7.9inch iPad mini without statusbar@2x.png",
       "extent" : "to-status-bar",
       "scale" : "2x"
     },
@@ -182,12 +197,14 @@
     {
       "orientation" : "landscape",
       "idiom" : "ipad",
+      "filename" : "splashscreen - 7.9inch iPad mini Landscape without statusbar@2x.png",
       "extent" : "to-status-bar",
       "scale" : "2x"
     },
     {
       "orientation" : "landscape",
       "idiom" : "ipad",
+      "filename" : "splashscreen - 9.7inch iPad Landscape@2x-1.png",
       "extent" : "full-screen",
       "scale" : "2x"
     }

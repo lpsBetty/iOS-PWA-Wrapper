@@ -458,7 +458,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = T75S72BPRV;
 				INFOPLIST_FILE = "ios-pwa-wrapper/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -482,7 +482,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = T75S72BPRV;
 				INFOPLIST_FILE = "ios-pwa-wrapper/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
